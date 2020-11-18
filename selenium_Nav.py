@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 selenium_Path = "C:\Program Files (x86)\chromedriver.exe"
@@ -65,3 +66,40 @@ def navYaHNBA():
     element.click()
     driver.find_element_by_xpath("/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/ul/li[3]").click()
 
+def navFDNFL():
+    driver.get("https://www.numberfire.com/nfl/daily-fantasy/daily-football-projections")
+    element = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/span")))
+    element.click()
+    driver.find_element_by_xpath("/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/ul/li[1]").click()
+def navDKNFL():
+    driver.get("https://www.numberfire.com/nfl/daily-fantasy/daily-football-projections")
+    element = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/span")))
+    element.click()
+    driver.find_element_by_xpath("/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/ul/li[2]").click()
+def navYaHNFL():
+    driver.get("https://www.numberfire.com/nfl/daily-fantasy/daily-football-projections")
+    element = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/span")))
+    element.click()
+    driver.find_element_by_xpath("/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/ul/li[3]").click()
+
+def navFDdstNFL():
+    driver.get("https://www.numberfire.com/nfl/daily-fantasy/daily-football-projections/D")
+    element = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/span")))
+    element.click()
+    driver.find_element_by_xpath("/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/ul/li[1]").click()
+def navDKdstNFL():
+    driver.get("https://www.numberfire.com/nfl/daily-fantasy/daily-football-projections/D")
+    element = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/span")))
+    element.click()
+    driver.find_element_by_xpath("/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/ul/li[2]").click()
+def navYaHdstNFL():
+    driver.get("https://www.numberfire.com/nfl/daily-fantasy/daily-football-projections/D")
+    element = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/span")))
+    element.click()
+    driver.find_element_by_xpath("/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div/ul/li[3]").click()
