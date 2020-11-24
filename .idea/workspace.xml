@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8d0e8242-6dfe-4362-b952-008dac298ef2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DFS_Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DFS_Calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nFScrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/nFScrape.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_Nav.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_Nav.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NFL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/NFL.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NFLdst.csv" beforeDir="false" afterPath="$PROJECT_DIR$/NFLdst.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrepSolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepSolve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils.py" afterDir="false" />
     </list>
     <list id="0c277ec9-a3ee-4230-a75c-e99824461c37" name="inital working commit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +54,6 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator" />
       <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator\Simulation" />
@@ -48,8 +61,11 @@
       <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator\Projections" />
       <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator\NFProjections" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Run">
+  <component name="RunManager" selected="Python.PrepSolve">
     <configuration name="Fangraphs" type="PythonConfigurationType" factoryName="Python">
       <module name="DFS_Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,6 +100,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OrderScrape.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PrepSolve" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DFS_Calculator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Andrew Moss\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrepSolve.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,6 +302,7 @@
       <item itemvalue="Python.OrderScrape" />
       <item itemvalue="Python.RGScrape" />
       <item itemvalue="Python.Run" />
+      <item itemvalue="Python.PrepSolve" />
       <item itemvalue="Python.Salaries" />
       <item itemvalue="Python.Schedule" />
       <item itemvalue="Python.Selenium" />
@@ -323,46 +361,55 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605720098784">
+    <state x="82" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606173751710">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605720098784" />
+    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605914621935" />
+    <state x="82" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1606173751710" />
     <state x="422" y="96" key="FileChooserDialogImpl" timestamp="1602182901049">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602182901049" />
-    <state width="1261" height="187" key="GridCell.Tab.0.bottom" timestamp="1605730960436">
+    <state width="1261" height="187" key="GridCell.Tab.0.bottom" timestamp="1606176627457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1261" height="187" key="GridCell.Tab.0.bottom/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605730960436" />
-    <state width="1261" height="187" key="GridCell.Tab.0.center" timestamp="1605730960436">
+    <state width="1261" height="187" key="GridCell.Tab.0.bottom/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
+    <state width="1261" height="187" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606176627457" />
+    <state width="1261" height="187" key="GridCell.Tab.0.center" timestamp="1606176627457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1261" height="187" key="GridCell.Tab.0.center/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605730960436" />
-    <state width="1261" height="187" key="GridCell.Tab.0.left" timestamp="1605730960436">
+    <state width="1261" height="187" key="GridCell.Tab.0.center/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
+    <state width="1261" height="187" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606176627457" />
+    <state width="1261" height="187" key="GridCell.Tab.0.left" timestamp="1606176627456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1261" height="187" key="GridCell.Tab.0.left/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605730960436" />
-    <state width="1261" height="187" key="GridCell.Tab.0.right" timestamp="1605730960436">
+    <state width="1261" height="187" key="GridCell.Tab.0.left/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
+    <state width="1261" height="187" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606176627456" />
+    <state width="1261" height="187" key="GridCell.Tab.0.right" timestamp="1606176627457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1261" height="187" key="GridCell.Tab.0.right/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605730960436" />
-    <state width="1261" height="187" key="GridCell.Tab.1.bottom" timestamp="1605730960436">
+    <state width="1261" height="187" key="GridCell.Tab.0.right/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
+    <state width="1261" height="187" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606176627457" />
+    <state width="1261" height="187" key="GridCell.Tab.1.bottom" timestamp="1606176638101">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1261" height="187" key="GridCell.Tab.1.bottom/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605730960436" />
-    <state width="1261" height="187" key="GridCell.Tab.1.center" timestamp="1605730960436">
+    <state width="1261" height="187" key="GridCell.Tab.1.bottom/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201550" />
+    <state width="1261" height="187" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606176638101" />
+    <state width="1261" height="187" key="GridCell.Tab.1.center" timestamp="1606176638101">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1261" height="187" key="GridCell.Tab.1.center/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605730960436" />
-    <state width="1261" height="187" key="GridCell.Tab.1.left" timestamp="1605730960436">
+    <state width="1261" height="187" key="GridCell.Tab.1.center/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
+    <state width="1261" height="187" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1606176638101" />
+    <state width="1261" height="187" key="GridCell.Tab.1.left" timestamp="1606176638101">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1261" height="187" key="GridCell.Tab.1.left/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605730960436" />
-    <state width="1261" height="187" key="GridCell.Tab.1.right" timestamp="1605730960436">
+    <state width="1261" height="187" key="GridCell.Tab.1.left/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
+    <state width="1261" height="187" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1606176638101" />
+    <state width="1261" height="187" key="GridCell.Tab.1.right" timestamp="1606176638101">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1261" height="187" key="GridCell.Tab.1.right/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605730960436" />
+    <state width="1261" height="187" key="GridCell.Tab.1.right/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201550" />
+    <state width="1261" height="187" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1606176638101" />
     <state x="151" y="0" key="SettingsEditor" timestamp="1605723870629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -453,9 +500,14 @@
           <option name="timeStamp" value="656" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Main.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="657" />
+          <url>file://$PROJECT_DIR$/PrepSolve.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="671" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PrepSolve.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="673" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

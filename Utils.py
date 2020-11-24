@@ -99,6 +99,82 @@ def nameChangeNBA(series):
     return series
 
 
+def nameChangeNFLTeam(series):
+    series = series.str.replace('Arizona D/ST', 'Cardinals ')
+    series = series.str.replace('Atlanta D/ST', 'Falcons ')
+    series = series.str.replace('Buffalo D/ST', 'Bills ')
+    series = series.str.replace('Baltimore D/ST', 'Ravens ')
+    series = series.str.replace('Carolina D/ST', 'Panthers ')
+    series = series.str.replace('Chicago D/ST', 'Bears ')
+    series = series.str.replace('Cincinnati D/ST', 'Bengals ')
+    series = series.str.replace('Cleveland D/ST', 'Browns ')
+    series = series.str.replace('Dallas D/ST', 'Cowboys ')
+    series = series.str.replace('Denver D/ST', 'Broncos ')
+    series = series.str.replace('Detroit D/ST', 'Lions ')
+    series = series.str.replace('Green Bay D/ST', 'Packers ')
+    series = series.str.replace('Houston D/ST', 'Texans ')
+    series = series.str.replace('Indianapolis D/ST', 'Colts ')
+    series = series.str.replace('Jacksonville D/ST', 'Jaguars ')
+    series = series.str.replace('Kansas City D/ST', 'Chiefs ')
+    series = series.str.replace('Las Vegas D/ST', 'Raiders ')
+    series = series.str.replace('Los Angeles Chargers D/ST', 'Chargers ')
+    series = series.str.replace('Miami D/ST', 'Dolphins ')
+    series = series.str.replace('Minnesota D/ST', 'Vikings ')
+    series = series.str.replace('New England D/ST', 'Patriots ')
+    series = series.str.replace('New Orleans D/ST', 'Saints ')
+    series = series.str.replace('New York Giants D/ST', 'Giants ')
+    series = series.str.replace('New York Jets D/ST', 'Jets ')
+    series = series.str.replace('Philadelphia D/ST', 'Eagles ')
+    series = series.str.replace('Pittsburgh D/ST', 'Steelers ')
+    series = series.str.replace('San Francisco D/ST', '49ers ')
+    series = series.str.replace('Seattle D/ST', 'Seahawks ')
+    series = series.str.replace('Tampa Bay D/ST', 'Buccaneers ')
+    series = series.str.replace('Tennessee D/ST', 'Titans ')
+    series = series.str.replace('Washington D/ST', 'WAS Football Team ')
+    return series
+
+def nameChangeNFLPlayer(series):
+    for item in series:
+        if item == 'Marvin Jones':
+            series = series.str.replace('Marvin Jones', 'Marvin Jones Jr.', regex=False)
+        if item == 'Will Fuller':
+            series = series.str.replace('Will Fuller', 'Will Fuller V', regex=False)
+        series = series.str.replace('D.J. Moore', 'DJ Moore')
+        if item == 'Todd Gurley':
+            series = series.str.replace('Todd Gurley', 'Todd Gurley II', regex=False)
+        if item == 'Melvin Gordon':
+            series = series.str.replace('Melvin Gordon', 'Melvin Gordon III', regex=False)
+        series = series.str.replace('D.J. Chark', 'DJ Chark Jr.', regex=False)
+        if item == 'Keelan Cole':
+            series = series.str.replace('Keelan Cole', 'Keelan Cole Sr.', regex=False)
+        if item == 'Willie Snead':
+            series = series.str.replace('Willie Snead', 'Willie Snead IV', regex=False)
+        if item == 'Steven Sims':
+            series = series.str.replace('Steven Sims', 'Steven Sims Jr.', regex=False)
+        if item == 'Mark Ingram':
+            series = series.str.replace('Mark Ingram', 'Mark Ingram II', regex=False)
+        series = series.str.replace('K.J. Hamler', 'KJ Hamler')
+        series = series.str.replace('Khadarel Hodge', 'KhaDarel Hodge')
+        series = series.str.replace('A.J. Dillon', 'AJ Dillon')
+        if item == 'Bisi Johnson':
+            series = series.str.replace('Bisi Johnson', 'Olabisi Johnson', regex=False)
+        series = series.str.replace("De'Michael Harris", 'DeMichael Harris')
+        series = series.str.replace('Matt Slater', 'Matthew Slater')
+        if item == 'Gardner Minshew':
+            series = series.str.replace('Gardner Minshew', 'Gardner Minshew II', regex=False)
+        series = series.str.replace('J.J. Arcega-Whiteside', 'JJ Arcega-Whiteside')
+        if item == 'Bennie Fowler':
+            series = series.str.replace('Bennie Fowler', 'Bennie Fowler III', regex=False)
+        if item == 'Dwayne Haskins':
+            series = series.str.replace('Dwayne Haskins', 'Dwayne Haskins Jr.', regex=False)
+        if item == 'Laviska Shenault':
+            series = series.str.replace('Laviska Shenault', 'Laviska Shenault Jr.', regex=False)
+        series = series.str.replace('A.J. McCarron', 'AJ McCarron')
+    return series
+
+
+
+
 def processMults(multiPos,site):
     sepPosFrame = pd.DataFrame(columns=['Name', 'FP', 'Price', 'ID', 'Roster_Position','TeamAbbrev'])
     if site == 1:

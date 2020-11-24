@@ -91,6 +91,36 @@ def PrepSolveNBA(site,sheet):
     Solve_sheet = Utils.idTeam(Solve_sheet, TeamList)
     return Solve_sheet, IDs, TeamList
 
+def PrepSolveNFL(site,sheet):
+    Solve_sheet = pd.DataFrame()
+    PositionList = []
+    sheet['Name'] = Utils.nameChangeNFLPlayer(sheet['Name'])
+    if site == 1:
+        refs = pd.read_csv("C:\\Users\\Andrew Moss\\PycharmProjects\\DFS_Calculator\\DKSalariesNFL.csv", skiprows=6,
+                           usecols=["Nickname", "Player ID + Player Name", "Position", "Team"])
+        Solve_sheet = pd.merge(left=sheet, right=refs, how="left", left_on='Name', right_on='Nickname')
+        Solve_sheet = Solve_sheet.rename(columns={'Position': 'Roster_Position'})
+        Solve_sheet = Solve_sheet.rename(columns={'Player ID + Player Name': 'ID'})
+        Solve_sheet = Solve_sheet.rename(columns={'Team': 'TeamAbbrev'})
+        Solve_sheet['ID'] = Solve_sheet['ID'].astype(str)
+        Solve_sheet = Utils.processMults(Solve_sheet, site)
+        PositionList = ["QB", "RB", "WR", "TE", "FLEX", "DST"]
+    elif site == 2:
+        refs = pd.read_csv("C:\\Users\\Andrew Moss\\PycharmProjects\\DFS_Calculator\\DKSalariesNFL.csv", skiprows=7,
+                           usecols=["Name", "Name + ID", "Roster Position", "TeamAbbrev"])
+        Solve_sheet = pd.merge(left=sheet, right=refs, how="left", left_on='Name', right_on='Name')
+        Solve_sheet = Solve_sheet.rename(columns={'Roster Position': 'Roster_Position'})
+        Solve_sheet = Solve_sheet.rename(columns={'Name + ID': 'ID'})
+        Solve_sheet['ID'] = Solve_sheet['ID'].astype(str)
+        Solve_sheet = Utils.processMults(Solve_sheet, site)
+        PositionList = ["QB", "RB", "WR", "TE", "FLEX", "DST"]
+    IDs = Utils.removeDupes(Solve_sheet['ID'].tolist())
+    TeamList = Utils.removeDupes(Solve_sheet['TeamAbbrev'].tolist())
+    Solve_sheet = Utils.PosIdentifiers(Solve_sheet, PositionList)
+    Solve_sheet = Utils.idIdentifiers(Solve_sheet, IDs)
+    Solve_sheet = Utils.idTeam(Solve_sheet, TeamList)
+    return Solve_sheet, IDs, TeamList
+
 def PrepDriver(sport,site):
     sheet, IDs, Teams = 0, 0, 0
     if sport == 1:
@@ -98,6 +128,13 @@ def PrepDriver(sport,site):
     elif sport == 2:
         sheet, IDs, Teams = PrepSolveNBA(site, sheet=pd.read_csv(
             "C:\\Users\\Andrew Moss\\PycharmProjects\\DFS_Calculator\\NBA.csv"))
+    elif sport == 3:
+        sheet1 = pd.read_csv('C:\\Users\\Andrew Moss\\PycharmProjects\\DFS_Calculator\\NFL.csv').loc[:, ['Name', 'FP', 'Price']]
+        sheet2 = pd.read_csv('C:\\Users\\Andrew Moss\\PycharmProjects\\DFS_Calculator\\NFLdst.csv').loc[:, ['Name', 'FP', 'Price']]
+        sheet2['Name'] = Utils.nameChangeNFLTeam(sheet2['Name'])
+        sheet2.to_csv('C:\\Users\\Andrew Moss\\PycharmProjects\\DFS_Calculator\\test.csv')
+        sheet = pd.concat([sheet1, sheet2])
+        sheet, IDs, Teams = PrepSolveNFL(site, sheet)
     return sheet, IDs, Teams
 
 
@@ -212,3 +249,4 @@ def SimPrep(site):
 
 
 
+PrepDriver(3,2)
