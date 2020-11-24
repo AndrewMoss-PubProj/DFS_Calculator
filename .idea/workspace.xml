@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d0e8242-6dfe-4362-b952-008dac298ef2" name="Default" comment="">
+    <list default="true" id="8d0e8242-6dfe-4362-b952-008dac298ef2" name="Default" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NFL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/NFL.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NFLdst.csv" beforeDir="false" afterPath="$PROJECT_DIR$/NFLdst.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrepSolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepSolve.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test.csv" afterDir="false" />
     </list>
     <list id="0c277ec9-a3ee-4230-a75c-e99824461c37" name="inital working commit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator" />
       <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator\Simulation" />
@@ -61,11 +65,8 @@
       <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator\Projections" />
       <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator\NFProjections" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Andrew Moss\PycharmProjects\DFS_Calculator" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.PrepSolve">
+  <component name="RunManager" selected="Python.Run">
     <configuration name="Fangraphs" type="PythonConfigurationType" factoryName="Python">
       <module name="DFS_Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -370,46 +371,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602182901049" />
-    <state width="1261" height="187" key="GridCell.Tab.0.bottom" timestamp="1606176627457">
+    <state width="1261" height="165" key="GridCell.Tab.0.bottom" timestamp="1606259302350">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.0.bottom/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="187" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606176627457" />
-    <state width="1261" height="187" key="GridCell.Tab.0.center" timestamp="1606176627457">
+    <state width="1261" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606259302350" />
+    <state width="1261" height="165" key="GridCell.Tab.0.center" timestamp="1606259302349">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.0.center/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="187" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606176627457" />
-    <state width="1261" height="187" key="GridCell.Tab.0.left" timestamp="1606176627456">
+    <state width="1261" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606259302349" />
+    <state width="1261" height="165" key="GridCell.Tab.0.left" timestamp="1606259302349">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.0.left/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="187" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606176627456" />
-    <state width="1261" height="187" key="GridCell.Tab.0.right" timestamp="1606176627457">
+    <state width="1261" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606259302349" />
+    <state width="1261" height="165" key="GridCell.Tab.0.right" timestamp="1606259302350">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.0.right/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="187" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606176627457" />
-    <state width="1261" height="187" key="GridCell.Tab.1.bottom" timestamp="1606176638101">
+    <state width="1261" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606259302350" />
+    <state width="1261" height="187" key="GridCell.Tab.1.bottom" timestamp="1606259302346">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.1.bottom/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201550" />
-    <state width="1261" height="187" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606176638101" />
-    <state width="1261" height="187" key="GridCell.Tab.1.center" timestamp="1606176638101">
+    <state width="1261" height="187" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606259302346" />
+    <state width="1261" height="187" key="GridCell.Tab.1.center" timestamp="1606259302346">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.1.center/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="187" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1606176638101" />
-    <state width="1261" height="187" key="GridCell.Tab.1.left" timestamp="1606176638101">
+    <state width="1261" height="187" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1606259302346" />
+    <state width="1261" height="187" key="GridCell.Tab.1.left" timestamp="1606259302346">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.1.left/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="187" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1606176638101" />
-    <state width="1261" height="187" key="GridCell.Tab.1.right" timestamp="1606176638101">
+    <state width="1261" height="187" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1606259302346" />
+    <state width="1261" height="187" key="GridCell.Tab.1.right" timestamp="1606259302346">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.1.right/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201550" />
-    <state width="1261" height="187" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1606176638101" />
+    <state width="1261" height="187" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1606259302346" />
     <state x="151" y="0" key="SettingsEditor" timestamp="1605723870629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -506,8 +507,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/PrepSolve.py</url>
-          <line>121</line>
-          <option name="timeStamp" value="673" />
+          <line>114</line>
+          <option name="timeStamp" value="674" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utils.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="676" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

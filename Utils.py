@@ -118,6 +118,7 @@ def nameChangeNFLTeam(series):
     series = series.str.replace('Kansas City D/ST', 'Chiefs ')
     series = series.str.replace('Las Vegas D/ST', 'Raiders ')
     series = series.str.replace('Los Angeles Chargers D/ST', 'Chargers ')
+    series = series.str.replace('Los Angeles Rams D/ST', 'Rams ')
     series = series.str.replace('Miami D/ST', 'Dolphins ')
     series = series.str.replace('Minnesota D/ST', 'Vikings ')
     series = series.str.replace('New England D/ST', 'Patriots ')
@@ -170,6 +171,18 @@ def nameChangeNFLPlayer(series):
         if item == 'Laviska Shenault':
             series = series.str.replace('Laviska Shenault', 'Laviska Shenault Jr.', regex=False)
         series = series.str.replace('A.J. McCarron', 'AJ McCarron')
+        if item == 'Henry Ruggs':
+            series = series.str.replace('Henry Ruggs', 'Henry Ruggs III', regex=False)
+        if item == 'Van Jefferson':
+            series = series.str.replace('Van Jefferson', 'Van Jefferson Jr.', regex=False)
+        if item == 'Darrell Henderson':
+            series = series.str.replace('Darrell Henderson', 'Darrell Henderson Jr.', regex=False)
+        if item == 'Ronald Jones':
+            series = series.str.replace('Ronald Jones', 'Ronald Jones II', regex=False)
+        if item == 'Wayne Gallman':
+            series = series.str.replace('Wayne Gallman', 'Wayne Gallman Jr.', regex=False)
+        if item == 'Jeff Wilson':
+            series = series.str.replace('Jeff Wilson', 'Jeff Wilson Jr.', regex=False)
     return series
 
 
@@ -191,7 +204,7 @@ def processMults(multiPos,site):
             tempEntry = tempEntry.transpose()
             for item in multiPos.iloc[i, :]['Roster_Position'].split('/'):
                 newEntry = tempEntry
-                newEntry['Roster_Position'] =item
+                newEntry['Roster_Position'] = item
                 sepPosFrame = pd.concat([sepPosFrame, newEntry], ignore_index=True,sort=False)
     return sepPosFrame
 

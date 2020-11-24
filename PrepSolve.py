@@ -246,7 +246,3 @@ def SimPrep(site):
     Solve_sheet = Solve_sheet.loc[:, ['ID', 'TeamAbbrev', 'Roster_Position', 'Pos', 'FP', 'Variance', 'Price', 'Ownership']]
 
     return Solve_sheet
-
-
-
-PrepDriver(3,2)
