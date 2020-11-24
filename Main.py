@@ -23,10 +23,10 @@ if sport == 2:
     file = open(os.path.expanduser("C:\\Users\\Andrew Moss\\PycharmProjects\\DFS_Calculator\\NBALineups.csv"), "wb")
     file.write(bytes(LineupText, encoding="ascii,", errors="ignore"))
 if sport == 3:
-    Threshold_Score, LineupText = dfsSolverNBA.NBASolve(site, sheet, IDs, lineups)
-    LineupTextStack = dfsSolverNBA.NBAsolveStack(site, sheet, IDs, Teams, Threshold_Score)
+    Threshold_Score, LineupText = dfsSolverNFL.NFLSolve(site, sheet, IDs, lineups)
+    LineupTextStack = dfsSolverNFL.NFLsolveStack(site, sheet, IDs, Teams, Threshold_Score)
     LineupText = LineupText + "Stacks \n" + LineupTextStack
-    file = open(os.path.expanduser("C:\\Users\\Andrew Moss\\PycharmProjects\\DFS_Calculator\\NBALineups.csv"), "wb")
+    file = open(os.path.expanduser("C:\\Users\\Andrew Moss\\PycharmProjects\\DFS_Calculator\\NFLLineups.csv"), "wb")
     file.write(bytes(LineupText, encoding="ascii,", errors="ignore"))
 
 
