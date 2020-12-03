@@ -134,6 +134,41 @@ def nameChangeNFLTeam(series):
     series = series.str.replace('Washington D/ST', 'WAS Football Team ')
     return series
 
+def nameChangeFDNFLTeam(series):
+    series = series.str.replace('Arizona D/ST', 'Arizona Cardinals')
+    series = series.str.replace('Atlanta D/ST', 'Atlanta Falcons')
+    series = series.str.replace('Buffalo D/ST', 'Buffalo Bills')
+    series = series.str.replace('Baltimore D/ST', 'Baltimore Ravens')
+    series = series.str.replace('Carolina D/ST', 'Carolina Panthers')
+    series = series.str.replace('Chicago D/ST', 'Chicago Bears')
+    series = series.str.replace('Cincinnati D/ST', 'Cincinnati Bengals')
+    series = series.str.replace('Cleveland D/ST', 'Cleveland Browns')
+    series = series.str.replace('Dallas D/ST', 'Dallas Cowboys')
+    series = series.str.replace('Denver D/ST', 'Denver Broncos')
+    series = series.str.replace('Detroit D/ST', 'Detroit Lions')
+    series = series.str.replace('Green Bay D/ST', 'Green Bay Packers')
+    series = series.str.replace('Houston D/ST', 'Houston Texans')
+    series = series.str.replace('Indianapolis D/ST', 'Indianapolis Colts')
+    series = series.str.replace('Jacksonville D/ST', 'Jacksonville Jaguars')
+    series = series.str.replace('Kansas City D/ST', 'Kansas City Chiefs')
+    series = series.str.replace('Las Vegas D/ST', 'Las Vegas Raiders')
+    series = series.str.replace('Los Angeles Chargers D/ST', 'Los Angeles Chargers')
+    series = series.str.replace('Los Angeles Rams D/ST', 'Los Angeles Rams')
+    series = series.str.replace('Miami D/ST', 'Miami Dolphins')
+    series = series.str.replace('Minnesota D/ST', 'Minnesota Vikings')
+    series = series.str.replace('New England D/ST', 'New England Patriots')
+    series = series.str.replace('New Orleans D/ST', 'New Orleans Saints')
+    series = series.str.replace('New York Giants D/ST', 'New York Giants')
+    series = series.str.replace('New York Jets D/ST', 'New York Jets')
+    series = series.str.replace('Philadelphia D/ST', 'Philadelphia Eagles')
+    series = series.str.replace('Pittsburgh D/ST', 'Pittsburgh Steelers')
+    series = series.str.replace('San Francisco D/ST', 'San Francisco 49ers')
+    series = series.str.replace('Seattle D/ST', 'Seattle Seahawks')
+    series = series.str.replace('Tampa Bay D/ST', 'Tampa Bay Buccaneers')
+    series = series.str.replace('Tennessee D/ST', 'Tennessee Titans')
+    series = series.str.replace('Washington D/ST', 'Washington Football Team ')
+    return series
+
 def nameChangeNFLPlayer(series):
     for item in series:
         if item == 'Marvin Jones':
@@ -146,6 +181,7 @@ def nameChangeNFLPlayer(series):
         if item == 'Melvin Gordon':
             series = series.str.replace('Melvin Gordon', 'Melvin Gordon III', regex=False)
         series = series.str.replace('D.J. Chark', 'DJ Chark Jr.', regex=False)
+        series = series.str.replace('D.K. Metcalf', 'DK Metcalf', regex=False)
         if item == 'Keelan Cole':
             series = series.str.replace('Keelan Cole', 'Keelan Cole Sr.', regex=False)
         if item == 'Willie Snead':
@@ -183,6 +219,8 @@ def nameChangeNFLPlayer(series):
             series = series.str.replace('Wayne Gallman', 'Wayne Gallman Jr.', regex=False)
         if item == 'Jeff Wilson':
             series = series.str.replace('Jeff Wilson', 'Jeff Wilson Jr.', regex=False)
+        if item == 'Allen Robinson':
+            series = series.str.replace('Allen Robinson', 'Allen Robinson II', regex=False)
     return series
 
 

@@ -8,7 +8,7 @@ def NFLSolve(site, sheet, IDList, lineups):
     LineupText = ""
     if site == 1:
         totalSalary = 60000
-        LineupText = "QB,RB,RB,WR,WR,WR,TE,FLEX,DST\n"
+        LineupText = "QB,RB,RB,WR,WR,WR,TE,FLEX,D\n"
     elif site == 2:
         totalSalary = 50000
         LineupText = "QB,RB,RB,WR,WR,WR,TE,FLEX,DST\n"
@@ -33,7 +33,7 @@ def NFLSolve(site, sheet, IDList, lineups):
             constraint_list.append(sheet['WR'].tolist() @ selection == 3)
             constraint_list.append(sheet['TE'].tolist() @ selection == 1)
             constraint_list.append(sheet['FLEX'].tolist() @ selection == 1)
-            constraint_list.append(sheet['DST'].tolist() @ selection == 1)
+            constraint_list.append(sheet['D'].tolist() @ selection == 1)
 
         elif site == 2:
             constraint_list.append(sheet['QB'].tolist() @ selection == 1)
@@ -49,15 +49,16 @@ def NFLSolve(site, sheet, IDList, lineups):
         NFL_DFS.solve(solver=cvxpy.GLPK_MI)
         sheet['Exposure'] = selection.value
         RawLineup = sheet[sheet['Exposure'] == 1]
-        FixedLineup = pd.DataFrame()
-
+        Solution = ""
         if site == 1:
             FixedLineup = RawLineup[RawLineup['Roster_Position'] == 'QB']\
                 .append(RawLineup[RawLineup['Roster_Position'] == 'RB'])\
                 .append(RawLineup[RawLineup['Roster_Position'] == 'WR'])\
                 .append(RawLineup[RawLineup['Roster_Position'] == 'TE'])\
                 .append(RawLineup[RawLineup['Roster_Position'] == 'FLEX'])\
-                .append(RawLineup[RawLineup['Roster_Position'] == 'DST'])
+                .append(RawLineup[RawLineup['Roster_Position'] == 'D'])
+            Solution =FixedLineup['Name + ID'].tolist()
+
         elif site == 2:
             FixedLineup = RawLineup[RawLineup['Roster_Position'] == 'QB']\
                 .append(RawLineup[RawLineup['Roster_Position'] == 'RB'])\
@@ -65,8 +66,7 @@ def NFLSolve(site, sheet, IDList, lineups):
                 .append(RawLineup[RawLineup['Roster_Position'] == 'TE'])\
                 .append(RawLineup[RawLineup['Roster_Position'] == 'FLEX'])\
                 .append(RawLineup[RawLineup['Roster_Position'] == 'DST'])
-
-        Solution =FixedLineup['ID'].tolist()
+            Solution =FixedLineup['ID'].tolist()
         Solution.append(str(sum(RawLineup['FP'].tolist())))
         Score = float(Solution[-1])
         if goodLineups == 0:
@@ -109,7 +109,7 @@ def NFLsolveStack(site, sheet, IDList, teamList, Threshold_Score):
                 constraint_list.append(sheet['WR'].tolist() @ selection == 3)
                 constraint_list.append(sheet['TE'].tolist() @ selection == 1)
                 constraint_list.append(sheet['FLEX'].tolist() @ selection == 1)
-                constraint_list.append(sheet['DST'].tolist() @ selection == 1)
+                constraint_list.append(sheet['D'].tolist() @ selection == 1)
 
             elif site == 2:
                 constraint_list.append(sheet['QB'].tolist() @ selection == 1)
@@ -124,8 +124,7 @@ def NFLsolveStack(site, sheet, IDList, teamList, Threshold_Score):
             NFL_DFS.solve(solver=cvxpy.GLPK_MI)
             sheet['Exposure'] = selection.value
             RawLineup = sheet[sheet['Exposure'] == 1]
-            FixedLineup = pd.DataFrame()
-
+            Solution = ""
             if site == 1:
                 FixedLineup = RawLineup[RawLineup['Roster_Position'] == 'QB'] \
                     .append(RawLineup[RawLineup['Roster_Position'] == 'RB']) \
@@ -133,6 +132,8 @@ def NFLsolveStack(site, sheet, IDList, teamList, Threshold_Score):
                     .append(RawLineup[RawLineup['Roster_Position'] == 'TE']) \
                     .append(RawLineup[RawLineup['Roster_Position'] == 'FLEX']) \
                     .append(RawLineup[RawLineup['Roster_Position'] == 'DST'])
+                Solution =FixedLineup['Name + ID'].tolist()
+
             elif site == 2:
                 FixedLineup = RawLineup[RawLineup['Roster_Position'] == 'QB'] \
                     .append(RawLineup[RawLineup['Roster_Position'] == 'RB']) \
@@ -140,7 +141,7 @@ def NFLsolveStack(site, sheet, IDList, teamList, Threshold_Score):
                     .append(RawLineup[RawLineup['Roster_Position'] == 'TE']) \
                     .append(RawLineup[RawLineup['Roster_Position'] == 'FLEX']) \
                     .append(RawLineup[RawLineup['Roster_Position'] == 'DST'])
-            Solution =FixedLineup['ID'].tolist()
+                Solution =FixedLineup['ID'].tolist()
             Solution.append(str(sum(RawLineup['FP'].tolist())))
             Score = float(Solution[-1])
             if Score >= .95*Threshold_Score:

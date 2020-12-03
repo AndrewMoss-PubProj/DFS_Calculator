@@ -21,10 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8d0e8242-6dfe-4362-b952-008dac298ef2" name="Default" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DKSalariesNFL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DKSalariesNFL.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NFL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/NFL.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NFLLineups.csv" beforeDir="false" afterPath="$PROJECT_DIR$/NFLLineups.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NFLdst.csv" beforeDir="false" afterPath="$PROJECT_DIR$/NFLdst.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PrepSolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepSolve.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfsSolverNFL.py" beforeDir="false" afterPath="$PROJECT_DIR$/dfsSolverNFL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test.csv" afterDir="false" />
     </list>
     <list id="0c277ec9-a3ee-4230-a75c-e99824461c37" name="inital working commit" comment="" />
@@ -301,9 +304,9 @@
     <list>
       <item itemvalue="Python.Fangraphs" />
       <item itemvalue="Python.OrderScrape" />
+      <item itemvalue="Python.PrepSolve" />
       <item itemvalue="Python.RGScrape" />
       <item itemvalue="Python.Run" />
-      <item itemvalue="Python.PrepSolve" />
       <item itemvalue="Python.Salaries" />
       <item itemvalue="Python.Schedule" />
       <item itemvalue="Python.Selenium" />
@@ -371,46 +374,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602182901049" />
-    <state width="1261" height="165" key="GridCell.Tab.0.bottom" timestamp="1606259302350">
+    <state width="1261" height="167" key="GridCell.Tab.0.bottom" timestamp="1607035458759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.0.bottom/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606259302350" />
-    <state width="1261" height="165" key="GridCell.Tab.0.center" timestamp="1606259302349">
+    <state width="1261" height="167" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607035458759" />
+    <state width="1261" height="167" key="GridCell.Tab.0.center" timestamp="1607035458759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.0.center/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606259302349" />
-    <state width="1261" height="165" key="GridCell.Tab.0.left" timestamp="1606259302349">
+    <state width="1261" height="167" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607035458759" />
+    <state width="1261" height="167" key="GridCell.Tab.0.left" timestamp="1607035458759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.0.left/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606259302349" />
-    <state width="1261" height="165" key="GridCell.Tab.0.right" timestamp="1606259302350">
+    <state width="1261" height="167" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607035458759" />
+    <state width="1261" height="167" key="GridCell.Tab.0.right" timestamp="1607035458759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.0.right/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606259302350" />
-    <state width="1261" height="187" key="GridCell.Tab.1.bottom" timestamp="1606259302346">
+    <state width="1261" height="167" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607035458759" />
+    <state width="1261" height="187" key="GridCell.Tab.1.bottom" timestamp="1607035121822">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.1.bottom/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201550" />
-    <state width="1261" height="187" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606259302346" />
-    <state width="1261" height="187" key="GridCell.Tab.1.center" timestamp="1606259302346">
+    <state width="1261" height="187" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607035121822" />
+    <state width="1261" height="187" key="GridCell.Tab.1.center" timestamp="1607035121822">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.1.center/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="187" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1606259302346" />
-    <state width="1261" height="187" key="GridCell.Tab.1.left" timestamp="1606259302346">
+    <state width="1261" height="187" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1607035121822" />
+    <state width="1261" height="187" key="GridCell.Tab.1.left" timestamp="1607035121822">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.1.left/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201549" />
-    <state width="1261" height="187" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1606259302346" />
-    <state width="1261" height="187" key="GridCell.Tab.1.right" timestamp="1606259302346">
+    <state width="1261" height="187" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1607035121822" />
+    <state width="1261" height="187" key="GridCell.Tab.1.right" timestamp="1607035121822">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1261" height="187" key="GridCell.Tab.1.right/0.0.1280.680/3200.0.1280.984@0.0.1280.680" timestamp="1605915201550" />
-    <state width="1261" height="187" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1606259302346" />
+    <state width="1261" height="187" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1607035121822" />
     <state x="151" y="0" key="SettingsEditor" timestamp="1605723870629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -502,18 +505,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/PrepSolve.py</url>
-          <line>101</line>
-          <option name="timeStamp" value="671" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/PrepSolve.py</url>
-          <line>114</line>
+          <line>119</line>
           <option name="timeStamp" value="674" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Utils.py</url>
-          <line>204</line>
-          <option name="timeStamp" value="676" />
+          <url>file://$PROJECT_DIR$/dfsSolverNFL.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="685" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

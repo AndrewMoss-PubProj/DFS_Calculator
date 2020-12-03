@@ -25,8 +25,10 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,TE,Travis Kelce (15820352),Travis Kelce,15820352,TE/FLEX,7000,KC@TB 11/29/2020 04:25PM ET,KC,20.88
 ,,,,,,,,,,RB,Mike Davis (15819834),Mike Davis,15819834,RB/FLEX,6900,CAR@MIN 11/29/2020 01:00PM ET,CAR,13.94
 ,,,,,,,,,,WR,Adam Thielen (15820062),Adam Thielen,15820062,WR/FLEX,6800,CAR@MIN 11/29/2020 01:00PM ET,MIN,19.21
+,,,,,,,,,,QB,Lamar Jackson (15847525),Lamar Jackson,15847525,QB,6800,Postponed,BAL,20.94
 ,,,,,,,,,,WR,A.J. Brown (15820064),A.J. Brown,15820064,WR/FLEX,6700,TEN@IND 11/29/2020 01:00PM ET,TEN,17.25
 ,,,,,,,,,,QB,Tom Brady (15819767),Tom Brady,15819767,QB,6600,KC@TB 11/29/2020 04:25PM ET,TB,21.46
+,,,,,,,,,,QB,Ben Roethlisberger (15847526),Ben Roethlisberger,15847526,QB,6600,Postponed,PIT,20.48
 ,,,,,,,,,,WR,Julio Jones (15820066),Julio Jones,15820066,WR/FLEX,6500,LV@ATL 11/29/2020 01:00PM ET,ATL,17.46
 ,,,,,,,,,,QB,Cam Newton (15819768),Cam Newton,15819768,QB,6400,ARI@NE 11/29/2020 01:00PM ET,NE,20.3
 ,,,,,,,,,,WR,Cooper Kupp (15820068),Cooper Kupp,15820068,WR/FLEX,6400,SF@LAR 11/29/2020 04:05PM ET,LAR,15.95
@@ -36,13 +38,16 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,WR,Justin Jefferson (15820070),Justin Jefferson,15820070,WR/FLEX,6300,CAR@MIN 11/29/2020 01:00PM ET,MIN,16.78
 ,,,,,,,,,,RB,Joe Mixon (15819840),Joe Mixon,15819840,RB/FLEX,6200,NYG@CIN 11/29/2020 01:00PM ET,CIN,17.27
 ,,,,,,,,,,WR,DJ Moore (15820072),DJ Moore,15820072,WR/FLEX,6200,CAR@MIN 11/29/2020 01:00PM ET,CAR,14.94
-,,,,,,,,,,QB,Taysom Hill (15819770),Taysom Hill,15819770,QB,6200,NO@DEN 11/29/2020 04:05PM ET,NO,7.09
+,,,,,,,,,,QB,Taysom Hill (15819770),Taysom Hill,15819770,QB,6200,NO@DEN 11/29/2020 04:05PM ET,NO,7.07
+,,,,,,,,,,RB,James Conner (15847531),James Conner,15847531,RB/FLEX,6200,Postponed,PIT,14.3
+,,,,,,,,,,WR,Diontae Johnson (15847553),Diontae Johnson,15847553,WR/FLEX,6200,Postponed,PIT,14.78
 ,,,,,,,,,,QB,Philip Rivers (15819771),Philip Rivers,15819771,QB,6100,TEN@IND 11/29/2020 01:00PM ET,IND,16.40
 ,,,,,,,,,,RB,Austin Ekeler (15819844),Austin Ekeler,15819844,RB/FLEX,6100,LAC@BUF 11/29/2020 01:00PM ET,LAC,15.55
 ,,,,,,,,,,QB,Kirk Cousins (15819772),Kirk Cousins,15819772,QB,6100,CAR@MIN 11/29/2020 01:00PM ET,MIN,18.32
 ,,,,,,,,,,WR,Robby Anderson (15820076),Robby Anderson,15820076,WR/FLEX,6100,CAR@MIN 11/29/2020 01:00PM ET,CAR,15.37
 ,,,,,,,,,,RB,Ronald Jones II (15819842),Ronald Jones II,15819842,RB/FLEX,6100,KC@TB 11/29/2020 04:25PM ET,TB,13.98
 ,,,,,,,,,,WR,Mike Evans (15820074),Mike Evans,15820074,WR/FLEX,6100,KC@TB 11/29/2020 04:25PM ET,TB,14.66
+,,,,,,,,,,WR,Chase Claypool (15847555),Chase Claypool,15847555,WR/FLEX,6100,Postponed,PIT,15.91
 ,,,,,,,,,,TE,Darren Waller (15820354),Darren Waller,15820354,TE/FLEX,6000,LV@ATL 11/29/2020 01:00PM ET,LV,14.39
 ,,,,,,,,,,RB,Alexander Mattison (15819846),Alexander Mattison,15819846,RB/FLEX,6000,CAR@MIN 11/29/2020 01:00PM ET,MIN,5.73
 ,,,,,,,,,,QB,Jared Goff (15819773),Jared Goff,15819773,QB,6000,SF@LAR 11/29/2020 04:05PM ET,LAR,19.93
@@ -54,6 +59,7 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,QB,Drew Brees (15819775),Drew Brees,15819775,QB,5900,NO@DEN 11/29/2020 04:05PM ET,NO,19.22
 ,,,,,,,,,,RB,Latavius Murray (15819848),Latavius Murray,15819848,RB/FLEX,5900,NO@DEN 11/29/2020 04:05PM ET,NO,8.17
 ,,,,,,,,,,TE,George Kittle (15820356),George Kittle,15820356,TE/FLEX,5900,SF@LAR 11/29/2020 04:05PM ET,SF,17.35
+,,,,,,,,,,WR,JuJu Smith-Schuster (15847557),JuJu Smith-Schuster,15847557,WR/FLEX,5900,Postponed,PIT,14.35
 ,,,,,,,,,,QB,Ryan Tannehill (15819777),Ryan Tannehill,15819777,QB,5800,TEN@IND 11/29/2020 01:00PM ET,TEN,21.04
 ,,,,,,,,,,RB,Damien Harris (15819852),Damien Harris,15819852,RB/FLEX,5800,ARI@NE 11/29/2020 01:00PM ET,NE,11.3
 ,,,,,,,,,,WR,Christian Kirk (15820082),Christian Kirk,15820082,WR/FLEX,5800,ARI@NE 11/29/2020 01:00PM ET,ARI,13.11
@@ -72,6 +78,7 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,QB,Joe Burrow (15819781),Joe Burrow,15819781,QB,5500,NYG@CIN 11/29/2020 01:00PM ET,CIN,19.77
 ,,,,,,,,,,QB,Daniel Jones (15819782),Daniel Jones,15819782,QB,5500,NYG@CIN 11/29/2020 01:00PM ET,NYG,15.03
 ,,,,,,,,,,WR,Cole Beasley (15820090),Cole Beasley,15820090,WR/FLEX,5500,LAC@BUF 11/29/2020 01:00PM ET,BUF,14.62
+,,,,,,,,,,RB,J.K. Dobbins (15847533),J.K. Dobbins,15847533,RB/FLEX,5500,Postponed,BAL,8.83
 ,,,,,,,,,,RB,Kenyan Drake (15819866),Kenyan Drake,15819866,RB/FLEX,5400,ARI@NE 11/29/2020 01:00PM ET,ARI,13.11
 ,,,,,,,,,,WR,Jamison Crowder (15820092),Jamison Crowder,15820092,WR/FLEX,5400,MIA@NYJ 11/29/2020 01:00PM ET,NYJ,16.92
 ,,,,,,,,,,QB,P.J. Walker (15819784),P.J. Walker,15819784,QB,5400,CAR@MIN 11/29/2020 01:00PM ET,CAR,4.24
@@ -86,6 +93,8 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,RB,Melvin Gordon III (15819870),Melvin Gordon III,15819870,RB/FLEX,5200,NO@DEN 11/29/2020 04:05PM ET,DEN,13.56
 ,,,,,,,,,,QB,Nick Mullens (15819787),Nick Mullens,15819787,QB,5200,SF@LAR 11/29/2020 04:05PM ET,SF,12.45
 ,,,,,,,,,,QB,Jimmy Garoppolo (15819788),Jimmy Garoppolo,15819788,QB,5200,SF@LAR 11/29/2020 04:05PM ET,SF,11.56
+,,,,,,,,,,RB,Gus Edwards (15847537),Gus Edwards,15847537,RB/FLEX,5200,Postponed,BAL,6.18
+,,,,,,,,,,TE,Mark Andrews (15847581),Mark Andrews,15847581,TE/FLEX,5200,Postponed,BAL,11.94
 ,,,,,,,,,,QB,Sam Darnold (15819791),Sam Darnold,15819791,QB,5100,MIA@NYJ 11/29/2020 01:00PM ET,NYJ,11.27
 ,,,,,,,,,,RB,Salvon Ahmed (15819874),Salvon Ahmed,15819874,RB/FLEX,5100,MIA@NYJ 11/29/2020 01:00PM ET,MIA,10.73
 ,,,,,,,,,,WR,Sterling Shepard (15820104),Sterling Shepard,15820104,WR/FLEX,5100,NYG@CIN 11/29/2020 01:00PM ET,NYG,11.98
@@ -122,6 +131,7 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,RB,Jerick McKinnon (15819882),Jerick McKinnon,15819882,RB/FLEX,4700,SF@LAR 11/29/2020 04:05PM ET,SF,10.9
 ,,,,,,,,,,RB,Malcolm Brown (15819884),Malcolm Brown,15819884,RB/FLEX,4700,SF@LAR 11/29/2020 04:05PM ET,LAR,9.42
 ,,,,,,,,,,WR,Sammy Watkins (15820132),Sammy Watkins,15820132,WR/FLEX,4700,KC@TB 11/29/2020 04:25PM ET,KC,10.9
+,,,,,,,,,,WR,Marquise Brown (15847559),Marquise Brown,15847559,WR/FLEX,4700,Postponed,BAL,9.02
 ,,,,,,,,,,RB,Nyheim Hines (15819886),Nyheim Hines,15819886,RB/FLEX,4600,TEN@IND 11/29/2020 01:00PM ET,IND,12.15
 ,,,,,,,,,,QB,Mike Glennon (15819800),Mike Glennon,15819800,QB,4600,CLE@JAX 11/29/2020 01:00PM ET,JAX,0
 ,,,,,,,,,,RB,Devonta Freeman (15819888),Devonta Freeman,15819888,RB/FLEX,4600,NYG@CIN 11/29/2020 01:00PM ET,NYG,7.2
@@ -134,6 +144,7 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,QB,Jacoby Brissett (15819802),Jacoby Brissett,15819802,QB,4400,TEN@IND 11/29/2020 01:00PM ET,IND,1.56
 ,,,,,,,,,,RB,Phillip Lindsay (15819896),Phillip Lindsay,15819896,RB/FLEX,4400,NO@DEN 11/29/2020 04:05PM ET,DEN,7.4
 ,,,,,,,,,,TE,Rob Gronkowski (15820362),Rob Gronkowski,15820362,TE/FLEX,4400,KC@TB 11/29/2020 04:25PM ET,TB,8.63
+,,,,,,,,,,RB,Mark Ingram II (15847535),Mark Ingram II,15847535,RB/FLEX,4400,Postponed,BAL,5.64
 ,,,,,,,,,,RB,Frank Gore (15819898),Frank Gore,15819898,RB/FLEX,4300,MIA@NYJ 11/29/2020 01:00PM ET,NYJ,6.65
 ,,,,,,,,,,WR,Preston Williams (15820136),Preston Williams,15820136,WR/FLEX,4300,MIA@NYJ 11/29/2020 01:00PM ET,MIA,9.72
 ,,,,,,,,,,TE,Mike Gesicki (15820364),Mike Gesicki,15820364,TE/FLEX,4300,MIA@NYJ 11/29/2020 01:00PM ET,MIA,8.44
@@ -142,6 +153,7 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,QB,Sean Mannion (15819805),Sean Mannion,15819805,QB,4300,CAR@MIN 11/29/2020 01:00PM ET,MIN,0
 ,,,,,,,,,,QB,Jeff Driskel (15819804),Jeff Driskel,15819804,QB,4300,NO@DEN 11/29/2020 04:05PM ET,DEN,10.69
 ,,,,,,,,,,WR,Josh Reynolds (15820140),Josh Reynolds,15820140,WR/FLEX,4300,SF@LAR 11/29/2020 04:05PM ET,LAR,8.88
+,,,,,,,,,,WR,Willie Snead IV (15847561),Willie Snead IV,15847561,WR/FLEX,4300,Postponed,BAL,8.69
 ,,,,,,,,,,WR,Breshad Perriman (15820142),Breshad Perriman,15820142,WR/FLEX,4200,MIA@NYJ 11/29/2020 01:00PM ET,NYJ,11.05
 ,,,,,,,,,,DST,Dolphins  (15820540),Dolphins ,15820540,DST,4200,MIA@NYJ 11/29/2020 01:00PM ET,MIA,8.8
 ,,,,,,,,,,QB,Nathan Peterman (15819806),Nathan Peterman,15819806,QB,4200,LV@ATL 11/29/2020 01:00PM ET,LV,0
@@ -151,6 +163,7 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,RB,Cam Akers (15819902),Cam Akers,15819902,RB/FLEX,4200,SF@LAR 11/29/2020 04:05PM ET,LAR,4.54
 ,,,,,,,,,,QB,Blaine Gabbert (15819807),Blaine Gabbert,15819807,QB,4200,KC@TB 11/29/2020 04:25PM ET,TB,0.03
 ,,,,,,,,,,WR,Mecole Hardman (15820144),Mecole Hardman,15820144,WR/FLEX,4200,KC@TB 11/29/2020 04:25PM ET,KC,8.87
+,,,,,,,,,,DST,Steelers  (15847593),Steelers ,15847593,DST,4200,Postponed,PIT,11
 ,,,,,,,,,,QB,Logan Woodside (15819812),Logan Woodside,15819812,QB,4100,TEN@IND 11/29/2020 01:00PM ET,TEN,0.28
 ,,,,,,,,,,WR,Zach Pascal (15820146),Zach Pascal,15820146,WR/FLEX,4100,TEN@IND 11/29/2020 01:00PM ET,IND,8.14
 ,,,,,,,,,,TE,Jonnu Smith (15820368),Jonnu Smith,15820368,TE/FLEX,4100,TEN@IND 11/29/2020 01:00PM ET,TEN,11.19
@@ -160,6 +173,9 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,RB,Justin Jackson (15819906),Justin Jackson,15819906,RB/FLEX,4100,LAC@BUF 11/29/2020 01:00PM ET,LAC,9.32
 ,,,,,,,,,,QB,John Wolford (15819810),John Wolford,15819810,QB,4100,SF@LAR 11/29/2020 04:05PM ET,LAR,0
 ,,,,,,,,,,QB,Chad Henne (15819809),Chad Henne,15819809,QB,4100,KC@TB 11/29/2020 04:25PM ET,KC,3.5
+,,,,,,,,,,QB,Robert Griffin III (15847527),Robert Griffin III,15847527,QB,4100,Postponed,BAL,-0.18
+,,,,,,,,,,QB,Mason Rudolph (15847528),Mason Rudolph,15847528,QB,4100,Postponed,PIT,-0.11
+,,,,,,,,,,TE,Eric Ebron (15847583),Eric Ebron,15847583,TE/FLEX,4100,Postponed,PIT,9.39
 ,,,,,,,,,,QB,Jacob Eason (15819821),Jacob Eason,15819821,QB,4000,TEN@IND 11/29/2020 01:00PM ET,IND,0
 ,,,,,,,,,,RB,Jordan Wilkins (15820036),Jordan Wilkins,15820036,RB/FLEX,4000,TEN@IND 11/29/2020 01:00PM ET,IND,5.23
 ,,,,,,,,,,RB,Marlon Mack (15820038),Marlon Mack,15820038,RB/FLEX,4000,TEN@IND 11/29/2020 01:00PM ET,IND,8.6
@@ -242,6 +258,15 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,RB,Darrel Williams (15819918),Darrel Williams,15819918,RB/FLEX,4000,KC@TB 11/29/2020 04:25PM ET,KC,4.02
 ,,,,,,,,,,RB,Darwin Thompson (15819920),Darwin Thompson,15819920,RB/FLEX,4000,KC@TB 11/29/2020 04:25PM ET,KC,1.05
 ,,,,,,,,,,RB,Anthony Sherman (15819922),Anthony Sherman,15819922,RB/FLEX,4000,KC@TB 11/29/2020 04:25PM ET,KC,1.54
+,,,,,,,,,,QB,Trace McSorley (15847529),Trace McSorley,15847529,QB,4000,Postponed,BAL,0
+,,,,,,,,,,QB,Josh Dobbs (15847530),Josh Dobbs,15847530,QB,4000,Postponed,PIT,0
+,,,,,,,,,,RB,Justice Hill (15847539),Justice Hill,15847539,RB/FLEX,4000,Postponed,BAL,0.26
+,,,,,,,,,,RB,Patrick Ricard (15847541),Patrick Ricard,15847541,RB/FLEX,4000,Postponed,BAL,1.76
+,,,,,,,,,,RB,Benny Snell Jr. (15847543),Benny Snell Jr.,15847543,RB/FLEX,4000,Postponed,PIT,4.61
+,,,,,,,,,,RB,Anthony McFarland Jr. (15847545),Anthony McFarland Jr.,15847545,RB/FLEX,4000,Postponed,PIT,1.93
+,,,,,,,,,,RB,Jaylen Samuels (15847547),Jaylen Samuels,15847547,RB/FLEX,4000,Postponed,PIT,0.55
+,,,,,,,,,,RB,Trey Edmunds (15847549),Trey Edmunds,15847549,RB/FLEX,4000,Postponed,PIT,0
+,,,,,,,,,,RB,Derek Watt (15847551),Derek Watt,15847551,RB/FLEX,4000,Postponed,PIT,0
 ,,,,,,,,,,WR,T.Y. Hilton (15820154),T.Y. Hilton,15820154,WR/FLEX,3900,TEN@IND 11/29/2020 01:00PM ET,IND,6.86
 ,,,,,,,,,,TE,Hayden Hurst (15820370),Hayden Hurst,15820370,TE/FLEX,3900,LV@ATL 11/29/2020 01:00PM ET,ATL,9.61
 ,,,,,,,,,,WR,Larry Fitzgerald (15820156),Larry Fitzgerald,15820156,WR/FLEX,3800,ARI@NE 11/29/2020 01:00PM ET,ARI,7.66
@@ -255,6 +280,7 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,WR,Keelan Cole Sr. (15820166),Keelan Cole Sr.,15820166,WR/FLEX,3600,CLE@JAX 11/29/2020 01:00PM ET,JAX,11.45
 ,,,,,,,,,,WR,A.J. Green (15820164),A.J. Green,15820164,WR/FLEX,3600,NYG@CIN 11/29/2020 01:00PM ET,CIN,7.67
 ,,,,,,,,,,TE,Jordan Reed (15820376),Jordan Reed,15820376,TE/FLEX,3600,SF@LAR 11/29/2020 04:05PM ET,SF,8.8
+,,,,,,,,,,WR,Dez Bryant (15847563),Dez Bryant,15847563,WR/FLEX,3600,Postponed,BAL,6.8
 ,,,,,,,,,,WR,Denzel Mims (15820174),Denzel Mims,15820174,WR/FLEX,3500,MIA@NYJ 11/29/2020 01:00PM ET,NYJ,8.68
 ,,,,,,,,,,WR,Golden Tate (15820168),Golden Tate,15820168,WR/FLEX,3500,NYG@CIN 11/29/2020 01:00PM ET,NYG,7.96
 ,,,,,,,,,,WR,KJ Hamler (15820170),KJ Hamler,15820170,WR/FLEX,3500,NO@DEN 11/29/2020 04:05PM ET,DEN,7.71
@@ -273,6 +299,7 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,WR,Jalen Guyton (15820188),Jalen Guyton,15820188,WR/FLEX,3100,LAC@BUF 11/29/2020 01:00PM ET,LAC,6.24
 ,,,,,,,,,,TE,Irv Smith Jr. (15820386),Irv Smith Jr.,15820386,TE/FLEX,3100,CAR@MIN 11/29/2020 01:00PM ET,MIN,5.24
 ,,,,,,,,,,WR,Tre'Quan Smith (15820186),Tre'Quan Smith,15820186,WR/FLEX,3100,NO@DEN 11/29/2020 04:05PM ET,NO,8.28
+,,,,,,,,,,DST,Ravens  (15847594),Ravens ,15847594,DST,3100,Postponed,BAL,9.8
 ,,,,,,,,,,WR,Marcus Johnson (15820338),Marcus Johnson,15820338,WR/FLEX,3000,TEN@IND 11/29/2020 01:00PM ET,IND,6.07
 ,,,,,,,,,,WR,DeMichael Harris (15820340),DeMichael Harris,15820340,WR/FLEX,3000,TEN@IND 11/29/2020 01:00PM ET,IND,5.38
 ,,,,,,,,,,WR,Dezmon Patmon (15820342),Dezmon Patmon,15820342,WR/FLEX,3000,TEN@IND 11/29/2020 01:00PM ET,IND,0
@@ -356,6 +383,14 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,WR,John Franklin III (15820204),John Franklin III,15820204,WR/FLEX,3000,KC@TB 11/29/2020 04:25PM ET,TB,0
 ,,,,,,,,,,WR,Byron Pringle (15820206),Byron Pringle,15820206,WR/FLEX,3000,KC@TB 11/29/2020 04:25PM ET,KC,3.69
 ,,,,,,,,,,WR,Gehrig Dieter (15820208),Gehrig Dieter,15820208,WR/FLEX,3000,KC@TB 11/29/2020 04:25PM ET,KC,0
+,,,,,,,,,,WR,Miles Boykin (15847565),Miles Boykin,15847565,WR/FLEX,3000,Postponed,BAL,4.41
+,,,,,,,,,,WR,Devin Duvernay (15847567),Devin Duvernay,15847567,WR/FLEX,3000,Postponed,BAL,4.3
+,,,,,,,,,,WR,James Proche (15847569),James Proche,15847569,WR/FLEX,3000,Postponed,BAL,0.24
+,,,,,,,,,,WR,Chris Moore (15847571),Chris Moore,15847571,WR/FLEX,3000,Postponed,BAL,0
+,,,,,,,,,,WR,Antoine Wesley (15847573),Antoine Wesley,15847573,WR/FLEX,3000,Postponed,BAL,0
+,,,,,,,,,,WR,DeAndrew White (15847575),DeAndrew White,15847575,WR/FLEX,3000,Postponed,BAL,0
+,,,,,,,,,,WR,James Washington (15847577),James Washington,15847577,WR/FLEX,3000,Postponed,PIT,6.34
+,,,,,,,,,,WR,Ray-Ray McCloud III (15847579),Ray-Ray McCloud III,15847579,WR/FLEX,3000,Postponed,PIT,2.75
 ,,,,,,,,,,TE,Dan Arnold (15820390),Dan Arnold,15820390,TE/FLEX,2900,ARI@NE 11/29/2020 01:00PM ET,ARI,4.38
 ,,,,,,,,,,DST,Cardinals  (15820546),Cardinals ,15820546,DST,2900,ARI@NE 11/29/2020 01:00PM ET,ARI,5.7
 ,,,,,,,,,,TE,Tyler Kroft (15820394),Tyler Kroft,15820394,TE/FLEX,2900,LAC@BUF 11/29/2020 01:00PM ET,BUF,5.99
@@ -439,6 +474,10 @@ QB,RB,RB,WR,WR,WR,TE,FLEX,DST,,Instructions
 ,,,,,,,,,,TE,Deon Yelder (15820422),Deon Yelder,15820422,TE/FLEX,2500,KC@TB 11/29/2020 04:25PM ET,KC,1.5
 ,,,,,,,,,,TE,Ricky Seals-Jones (15820424),Ricky Seals-Jones,15820424,TE/FLEX,2500,KC@TB 11/29/2020 04:25PM ET,KC,0
 ,,,,,,,,,,TE,James Winchester (15820426),James Winchester,15820426,TE/FLEX,2500,KC@TB 11/29/2020 04:25PM ET,KC,0
+,,,,,,,,,,TE,Luke Willson (15847585),Luke Willson,15847585,TE/FLEX,2500,Postponed,BAL,0
+,,,,,,,,,,TE,Nick Boyle (15847587),Nick Boyle,15847587,TE/FLEX,2500,Postponed,BAL,4.14
+,,,,,,,,,,TE,Zach Gentry (15847589),Zach Gentry,15847589,TE/FLEX,2500,Postponed,PIT,0
+,,,,,,,,,,TE,Vance McDonald (15847591),Vance McDonald,15847591,TE/FLEX,2500,Postponed,PIT,2.52
 ,,,,,,,,,,DST,Titans  (15820554),Titans ,15820554,DST,2400,TEN@IND 11/29/2020 01:00PM ET,TEN,4.3
 ,,,,,,,,,,DST,Chargers  (15820555),Chargers ,15820555,DST,2400,LAC@BUF 11/29/2020 01:00PM ET,LAC,4.5
 ,,,,,,,,,,DST,Raiders  (15820557),Raiders ,15820557,DST,2300,LV@ATL 11/29/2020 01:00PM ET,LV,3.2
